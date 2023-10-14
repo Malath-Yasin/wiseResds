@@ -1,0 +1,73 @@
+:root {
+  /* COLORS */
+  --primary-color: #59926f;
+  --secondary-color: #8bb39a;
+  --ternary-color: #62b6b7;
+  --hover-color: #7c81ad;
+  --white-color: #cbedd5;
+}
+
+/* Start Global Styling  */
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+html {
+font-size: 62.5%;
+}
+
+body {
+font-family: "Cormorant", serif;
+}
+
+.container{
+width: 117rem;
+padding: 1rem;
+margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+color: white;
+}
+
+footer {
+  margin-top: auto;
+max-height: 100vh;
+  background-color: #343a40;
+  color: white;
+}
+i{
+  font-size: 1.5rem;
+  margin-left: 0.25rem;
+}
+.navbar {
+  font-size: 2rem;
+}
+.nav-item {
+  font-size: 2rem;
+}
+.form-control {
+  font-size: 2rem;
+}
+.btn {
+  font-size: 2rem;
+}
+.container {
+  font-size: 2rem;
+}
+.row{
+  font-size: 2rem;
+}
+i {
+  font-size: 2.5rem;
+}
+.col-md-12 {
+  font-size: 2rem;
+}
+.follow {
+  font-size: 2rem;
+}
